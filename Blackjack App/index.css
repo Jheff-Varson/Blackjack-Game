@@ -1,0 +1,64 @@
+h1{
+    color: goldenrod;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: url(./img/greenbg.jpg);
+    background-size: cover;
+    max-width: 100vh;
+    font-weight: bold;
+    margin: 100px auto;
+}
+
+.container{
+    padding: 4em 1em;
+    border: 5px solid goldenrod;
+    border-radius: 15px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.gif_img1 {
+    position: absolute;
+    top: 29%;
+    left: 27%;
+    display: none;
+}
+
+.gif_img2 {
+    position: absolute;
+    top: 29%;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .gif_img1 {
+        top: 41%;
+        left: 3%;
+        width: 7em;
+        height: 4.5em;
+    }
+    
+    .gif_img2 {
+        top: 41%;
+        right: 3%;
+        width: 7em;
+        height: 4.5em;
+    } 
+}
